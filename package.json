@@ -43,7 +43,9 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ]
     },
@@ -57,6 +59,7 @@
   "license": "ISC",
   "dependencies": {
     "electron-store": "^11.0.2",
+    "highlight.js": "^11.11.1",
     "marked": "^17.0.1"
   },
   "devDependencies": {
